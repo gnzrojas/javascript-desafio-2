@@ -34,3 +34,25 @@ btn.addEventListener('click', function () {
 
 
 /*Requerimiento 3: */
+const pass1 = document.getElementById('pass1')
+const pass2 = document.getElementById('pass2')
+const pass3 = document.getElementById('pass3')
+
+const btnIngresar = document.getElementById('confirmar-password')
+const confirmarPassword = document.getElementById('contraseña')
+
+btnIngresar.addEventListener('click', function(){
+    
+    let password = pass1.value + pass2.value + pass3.value
+    if(password == 911) {
+        confirmarPassword.innerHTML = 'Password 1 correcto'
+    }
+
+    else if (password == 714) {
+        confirmarPassword.innerHTML = 'Password 2 correcto'
+    }
+
+    else {
+        confirmarPassword.innerHTML = 'Password incorrecto'
+    }
+})
