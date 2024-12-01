@@ -4,18 +4,52 @@
     box-sizing: border-box;
 }
 
-.imagen{
-    border:1px solid black;
+
+/* Estilos para requerimiento 1 */
+.rec-1{
     padding: 3em;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.sticker{
-    border: 1px solid yellow;
+/* Estilos para requerimiento 2: */
+.rec-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.password{
-    border: 1px solid green;
+.rec-2 > p {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-weight: bold;
+    font-size: 18px;
 }
+
+.rec-2 > article {
+    gap: 14em;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sticker {
+    width: 11em;
+    height: 13em;
+    padding: 1em;
+
+}
+
+.input-number {
+    padding: 1em;
+}
+
+button {
+    margin: 1em;
+
+}
+
+/* Estilos para requerimiento 3: */
